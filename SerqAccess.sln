@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerqAccess.EasyData", "EasyData\SerqAccess.EasyData.csproj", "{DC3E225B-6BFD-4B41-B013-9F08411401E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerqAccess.SampleEntity", "SerqAccess.SampleEntity\SerqAccess.SampleEntity.csproj", "{3720594B-8846-4E09-BF97-6AD12B80160C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerqAccess.SampleQuery", "SerqAccess.SampleQuery\SerqAccess.SampleQuery.csproj", "{2CAB5D79-E68A-4931-B717-AB9883DD79A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerqAccess.SampleUI", "SerqAccess.SampleUI\SerqAccess.SampleUI.csproj", "{771B030D-731E-48B1-8FAB-477C27C9F675}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		TowerDev02|Any CPU = TowerDev02|Any CPU
+		TowerDev03|Any CPU = TowerDev03|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC3E225B-6BFD-4B41-B013-9F08411401E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC3E225B-6BFD-4B41-B013-9F08411401E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC3E225B-6BFD-4B41-B013-9F08411401E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC3E225B-6BFD-4B41-B013-9F08411401E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC3E225B-6BFD-4B41-B013-9F08411401E3}.TowerDev02|Any CPU.ActiveCfg = TowerDev02|Any CPU
+		{DC3E225B-6BFD-4B41-B013-9F08411401E3}.TowerDev02|Any CPU.Build.0 = TowerDev02|Any CPU
+		{DC3E225B-6BFD-4B41-B013-9F08411401E3}.TowerDev03|Any CPU.ActiveCfg = TowerDev03|Any CPU
+		{DC3E225B-6BFD-4B41-B013-9F08411401E3}.TowerDev03|Any CPU.Build.0 = TowerDev03|Any CPU
+		{3720594B-8846-4E09-BF97-6AD12B80160C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3720594B-8846-4E09-BF97-6AD12B80160C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3720594B-8846-4E09-BF97-6AD12B80160C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3720594B-8846-4E09-BF97-6AD12B80160C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3720594B-8846-4E09-BF97-6AD12B80160C}.TowerDev02|Any CPU.ActiveCfg = Release|Any CPU
+		{3720594B-8846-4E09-BF97-6AD12B80160C}.TowerDev02|Any CPU.Build.0 = Release|Any CPU
+		{3720594B-8846-4E09-BF97-6AD12B80160C}.TowerDev03|Any CPU.ActiveCfg = Release|Any CPU
+		{3720594B-8846-4E09-BF97-6AD12B80160C}.TowerDev03|Any CPU.Build.0 = Release|Any CPU
+		{2CAB5D79-E68A-4931-B717-AB9883DD79A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CAB5D79-E68A-4931-B717-AB9883DD79A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CAB5D79-E68A-4931-B717-AB9883DD79A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CAB5D79-E68A-4931-B717-AB9883DD79A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CAB5D79-E68A-4931-B717-AB9883DD79A1}.TowerDev02|Any CPU.ActiveCfg = Release|Any CPU
+		{2CAB5D79-E68A-4931-B717-AB9883DD79A1}.TowerDev02|Any CPU.Build.0 = Release|Any CPU
+		{2CAB5D79-E68A-4931-B717-AB9883DD79A1}.TowerDev03|Any CPU.ActiveCfg = Release|Any CPU
+		{2CAB5D79-E68A-4931-B717-AB9883DD79A1}.TowerDev03|Any CPU.Build.0 = Release|Any CPU
+		{771B030D-731E-48B1-8FAB-477C27C9F675}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{771B030D-731E-48B1-8FAB-477C27C9F675}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{771B030D-731E-48B1-8FAB-477C27C9F675}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{771B030D-731E-48B1-8FAB-477C27C9F675}.Release|Any CPU.Build.0 = Release|Any CPU
+		{771B030D-731E-48B1-8FAB-477C27C9F675}.TowerDev02|Any CPU.ActiveCfg = Release|Any CPU
+		{771B030D-731E-48B1-8FAB-477C27C9F675}.TowerDev02|Any CPU.Build.0 = Release|Any CPU
+		{771B030D-731E-48B1-8FAB-477C27C9F675}.TowerDev03|Any CPU.ActiveCfg = Release|Any CPU
+		{771B030D-731E-48B1-8FAB-477C27C9F675}.TowerDev03|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
