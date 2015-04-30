@@ -46,6 +46,12 @@ namespace SerqAccess.SampleUI
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
+            if (cbDatabase.SelectedItem.ToString().Equals("Oracle"))
+            {
+                Random r = new Random();
+                sqlMap.InsertPerson = "insert into people values(" + r.Next().ToString() +
+                    ",'" + txtName.Text + "','" + txtLastName.Text + "')";
+            }
             pQueries.AddPerson(txtName.Text, txtLastName.Text);
             PopulatePeopleGrid();
         }
